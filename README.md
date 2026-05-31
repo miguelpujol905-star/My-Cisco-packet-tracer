@@ -19,32 +19,14 @@ A través de esta simulación, logré interconectar diferentes dispositivos fina
 
 ---
 
-## 📐 Topología de la Red
-
-La red está estructurada bajo una topología en [ej: Estrella / Árbol / Mixta] y cuenta con las siguientes características:
-
-* **Subredes:** Se configuraron [número, ej: 2] subredes distintas para segmentar el tráfico.
-* **Direccionamiento:** Se utilizó direccionamiento IPv4 [ej: Estático / mediante DHCP].
-
-### Tabla de Direccionamiento (Ejemplo)
+### Tabla de Direccionamiento 
 
 | Dispositivo | Interfaz | Dirección IP | Máscara de Subred | Gateway por Defecto |
 | :--- | :--- | :--- | :--- | :--- |
-| **Router0** | Gig0/0 | 192.168.1.1 | 255.255.255.0 | N/A |
+| **Router0** | Gig0/0 | 192.168.1.1 | 255.255.255.0 | 192.168.1.1 |
 | **PC-01** | FastEth0 | 192.168.1.2 | 255.255.255.0 | 192.168.1.1 |
 | **PC-02** | FastEth0 | 192.168.1.3 | 255.255.255.0 | 192.168.1.1 |
 
 ---
 
 
-
-## 🧠 Aprendizajes Clave
-
-Con este proyecto logré comprender de forma práctica:
-* La diferencia y el propósito de los Routers (Capa 3) y Switches (Capa 2).
-* Cómo estructurar y asignar un esquema de direccionamiento IP básico.
-* El flujo de encapsulamiento de datos al enviar un paquete de una PC a otra.
-
----
-
-Este proyecto marca el inicio de mi camino en la ingeniería de redes. ¡Cualquier feedback es más que bienvenido! 🚀
